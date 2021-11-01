@@ -1,0 +1,33 @@
+Angular
+
+npm install -g @angular/cli
+ng new my-dream-app
+cd my-dream-app
+export NODE_OPTIONS=--openssl-legacy-provider
+ng serve
+ng generate service api
+ng generate component members-detail
+
+
+Django
+django-admin startproject myproject
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py startapp appname
+pip install Pillow
+pip install djangorestframework
+. venv/bin/activate
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+[EDIT, in appname]
+    models.py: class Member
+    admin.py: admin.site.register(Member)
+    serializers.pyviews.py
+    settings.py
+
+
+[REFs]
+    github.com/adamchainz/django-cors-headers
